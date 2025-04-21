@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 import os
-from sklearn.metrics.pairwise import cosine_similarity
+
 
 # Load movie list and similarity matrix (use relative paths)
 movie_list_path = os.path.join(os.getcwd(), 'movie_list.pkl')
