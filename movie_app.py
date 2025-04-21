@@ -13,8 +13,9 @@ def load_pickle(file_path):
         return pickle.load(f)
 
 # Load the movie data and similarity matrix
-movies = load_pickle(movie_list_path)
-similarity = load_pickle(similarity_path)
+movies = load_pickle('movie_list.pkl')
+similarity = load_pickle('similarity.pkl')
+
 
 # Function to recommend movies
 def recommend(movie_name):
